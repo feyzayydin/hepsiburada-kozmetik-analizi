@@ -1,12 +1,12 @@
-# 🛍️ Hepsiburada Kozmetik Analizi
+# Hepsiburada Kozmetik Analizi
 
 Python ile Hepsiburada'dan kozmetik ürün verilerini otomatik olarak toplayan, temizleyen, analiz eden ve görselleştiren bir veri analizi projesi.
 
-## 📌 Proje Hakkında
+## Proje Hakkında
 
 Bu proje, Hepsiburada'nın kozmetik kategorilerindeki ürünleri web scraping yöntemiyle toplayarak fiyat, puan ve yorum verilerini analiz etmektedir. Sonuçlar hem Excel raporu hem de interaktif Streamlit dashboard üzerinden sunulmaktadır.
 
-## 🚀 Özellikler
+## Özellikler
 
 - **Web Scraping** — Selenium ile Hepsiburada'dan otomatik veri toplama
 - **Veri Temizleme** — Duplicate ve eksik verilerin temizlenmesi
@@ -14,7 +14,7 @@ Bu proje, Hepsiburada'nın kozmetik kategorilerindeki ürünleri web scraping y�
 - **Excel Raporu** — Formatlı, grafikli Excel çıktısı (openpyxl)
 - **Streamlit Dashboard** — İnteraktif web arayüzü ile görselleştirme
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 | Teknoloji | Kullanım Amacı |
 |-----------|---------------|
@@ -26,7 +26,7 @@ Bu proje, Hepsiburada'nın kozmetik kategorilerindeki ürünleri web scraping y�
 | openpyxl | Excel raporu |
 | Matplotlib / Seaborn | Görselleştirme |
 
-## ⚙️ Kurulum
+## Kurulum
 
 ```bash
 pip install selenium beautifulsoup4 pandas streamlit openpyxl matplotlib seaborn webdriver-manager
@@ -34,7 +34,7 @@ python main.py
 streamlit run app.py
 ```
 
-## 📊 Analiz Çıktıları
+## Analiz Çıktıları
 
 - Kategori bazlı ortalama fiyat karşılaştırması
 - En yüksek puanlı markalar (Top 10)
